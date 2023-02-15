@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+	<link rel="shortcut icon" href="images/computer_icon.ico" type="image/ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--  buttons,social icons(menu,home,facebook,...) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--/<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+	<!--/<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">-->
+  <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--/Animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>DCCE</title>
+</head>
+<body>
+  <section name="home" id="header-wrapper">
+    <header class="contanier"> 
+      <a href="#" onclick="toggle_visibility('menu-phone');"><!--/openMenu-->
+        <div id="icon-menu" class="hidden" onclick="menu_btn(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>  
+      </a>
+  
+      <nav id="menu-phone">
+        <ul class="nav-list">
+          <li class="current"><a class="smoothscroll" href="#main.html" title="">Home</a></li>
+          <li class="current"><a class="smoothscroll" href="#about-us" title="">about-us</a></li>
+          <li class="current"><a class="smoothscroll" href="#Library" title="">Library</a></li>
+          <li class="current"><a class="smoothscroll" href="#portfolio" title="">corses</a></li>
+          <li class="current" style="margin-bottom: 1em;">
+            <a class="smoothscroll" href="#contact" title="">contact us</a></li>						
+        </ul>
+  
+        <p> اهلا بيك ي هندسة في مكتبة العائلة</p>			
+  
+        <div id="social-h">
+          <ul class="contact">
+            <li><a href="#" class="fa fa-facebook"><span></span></a></li>
+            <li><a href="#" class="fa fa-twitter"><span></span></a></li>
+            <li><a href="#" class="fa fa-instagram"><span></span></a></li>
+            <li><a href="#" class="fa fa-youtube"><span></span></a></li>
+          </ul>
+        </div>      
+      </nav>
+  
+      <div id="menu" >
+        <div class="hidden" style="float: right;">
+          <img src="images/logo-white.png" alt="logo">
+        </div>
+
+        <div id="logo" class="show">
+          <h1><a href="main.html">هاي</a></h1>
+          <p>مكتبة العائلة</p>
+				</div>
+        <ul class="contant-menu show">
+          <li><a href="#about-us" title="">about-us</a></li>
+          <li><a href="#Library" title="">Library</i></a></li>
+          <li><a href="#" title="">الحياة المهنية</a></li>
+          <li>
+          <a href="#" class="contact-us">تواصل معنا</a>
+        </li>
+        </ul>
+
+      </div>    
+  
+    </header>
+  
+    <div class="header-text contanier" >
+      <h1 data-aos="fade-right">اهلا بيك ي هندسة <br>في مكتبة العائلة</h1>
+      <div class="search">
+        <form action="#">
+            <input type="text" placeholder=" ابحث عن محاضرة " name="search">
+            <button>
+                <i class="fa fa-search"
+                    style="font-size: 18px;">
+                </i>
+            </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+      <button onclick="topFunction()" id="myBtn" title="للذهاب إلى الأعلى" > ^ </button>
+      <div class="clearfix"></div>
+ 
+
+  <section name="about-us" >
+    <div id="about-us">    
+    <div class="vertical-line" data-aos="fade-up"></div>    
+    <p class="section-t" data-aos="fade-up">About us</p>
+    <p class="text contanier" data-aos="fade-up" data-aos-duration="3000">
+      نحن زملائكم نحاول توفير مرجع واحد للمنهج لتخزين الملخصات والمحاضرات في مكتبة
+    </p>
+    </div>
+  </section>
+<!--/
+  <section name="Library">
+    <div id="library" class="container">			
+      <div id="title">
+				<h2 class="title">corses</h2>
+			</div>
+
+	  <div id="intro" class="container">
+		<div id="hero-img">
+		  <div >
+			  <img src="images/physics.jpg" class="image-wrapper">
+		  </div>
+		  <div class="caption">
+				  توضيح للصورة
+		  </div>
+		</div>
+  
+		<div id="headingInfo">
+		  <h1 class="headingInfo_title">
+قريبًا
+      </h1> 
+			
+		  <h2 class="headingInfo_subtitle">
+        قريبًا
+		  </h2>  
+		  
+		</div>       
+	  </div>
+  
+
+    </div>
+  </section>-->
+
+  <canter>
+    <!-- physics -->
+    <div class="physics">                                    
+        <img src="images/physics.jpg" class="physics">  
+        <div class="container">
+          <div class="boxx">
+            <ul>
+              <li><h1>PHYSICS</h1></li>
+              <li><a href="physics.html"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a></li>
+              <li><a href="https://drive.google.com/drive/folders/1gFRnOisw_mIsjngF0V2hWLkQDsHqwzZj?usp=sharing" target="_blank" rel="noopener noreferrer"><button>DATA</button></a></li>
+            </ul>
+
+          </div>
+        </div>            
+
+    </div>
+
+        <div style="height: 20px; width: 100%; background-color:cadetblue" class="container"></div>
+    <!-- math -->
+    <div class="math">                                              
+        <img src="images/math.jpg" class="math">
+        
+        <div class="container">
+          <div class="boxx">
+            <h1>MATH</h1>
+            <a href="math/lectures.html"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a>
+            <a href="https://drive.google.com/drive/folders/1YvzBUSfsWPMf0-bfhL0aqrM9I_IFU-eD?usp=sharing"><button>DATA</button></a>
+          </div>
+        </div>
+    </div>
+
+    <div style="height: 20px; width: 100%; background-color:cadetblue" class="container"></div>
+    <!-- ELECTRONICS -->
+    <div class="physics">                              
+        <img src="images/electronics.jpg" class="physics">                
+        <div class="container">
+            <h1>ELECTRONICS</h1>
+            <a href="electronics/lectures.html"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a>
+            <a href="https://drive.google.com/drive/folders/1drnI3aB2_kxyFmshNC_c_XMxqMnLyo1C?usp=sharing"><button>DATA</button></a>
+            
+        </div>
+    </div>
+
+    <div style="height: 20px; width: 100%; background-color:cadetblue" class="container"></div>
+    <!-- CIRCITS -->
+    <div class="math">                                              
+        <img src="images/circits.jpg" class="math">
+        
+        <div class="container">
+            <h1>CIRCITS</h1>
+            <a href="circits/lectures.html"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a>
+            <a href="https://drive.google.com/drive/folders/1jxGqgWlINbOuSZAywOjvFVagPHXo0FzP?usp=sharing"><button>DATA</button></a>
+            
+        </div>
+    </div>
+
+    <div style="height: 20px; width: 100%; background-color:cadetblue" class="container"></div>
+    <!-- MEASURMENT -->
+    <div class="physics">                              
+        <img src="images/measur.jpg" class="physics">                
+        <div class="container">
+            <h1>MEASURMENT</h1>
+            <a href="measurments/lectures.html"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a>
+            <a href="https://drive.google.com/drive/folders/1gXcsQNmCRoSmSSoxTwSFBkGX9urDggTI?usp=sharing"><button>DATA</button></a>
+            
+        </div>
+    </div>
+
+    <div style="height: 20px; width: 100%; background-color:cadetblue" class="container"></div>
+    <!-- FLUID -->
+    <div class="math">                                              
+        <img src="images/fluid.jpg" class="math">
+        
+        <div class="container">
+            <h1>FLUID</h1>
+            <a href="fluid/lectures.html"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a>
+            <a href="https://drive.google.com/drive/folders/1iq6Fz19hBNItTTV8c4r72G-C4iAMZe2f?usp=sharing"><button>DATA</button></a>
+            
+        </div>
+    </div>
+
+    <div style="height: 20px; width: 100%; background-color:cadetblue" class="container"></div>
+    <!-- HUMMINITY -->
+    <div class="physics">                              
+        <img src="images/humminity.jpg" class="physics">                
+        <div class="container">
+            <h1>HUMMINITY</h1>
+            <a href="https://drive.google.com/drive/folders/1B1rt8zlZsUqqVi1m1SC_q5x57ziVTD-o?usp=sharing" target="_blank"><button style="margin-top: 2px;" class="btn-1">LECTURES</button></a>
+            
+        </div>
+    </div>
+    
+</canter>
+
+
+<!--
+
+
+  <section name="latest additions">
+    <div id="latest additions">
+      <div id="title">
+        <h2 class="title"><b>احدث الاضافات</b></h2>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" > 
+            <p style="font-size: 50px;">test</p>
+            <button>
+            <a href="articles/humanDevelopement/form.html" style="color: #000; font-size: x-large;">tap</a>
+          </button>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+          <div class="swiper-slide">Slide 11</div>
+          <div class="swiper-slide">Slide 12</div>
+          <div class="swiper-slide">Slide 13</div>
+          <div class="swiper-slide">Slide 14</div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+		<div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      
+    </div>
+
+  </section> -->
+
+
+  <section name="our-serve">
+    <div id="our-servise" class="container">			
+      <div id="title">
+				<h2 class="title">خدمتنا</h2>
+			</div>
+      </div>
+      </section>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="design.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+<!--/
+needs to
+1- make scrol in nav list ........done^_^
+2- edit style for text_1 !!!!important
+
+-->

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="article-style.css">
+  <title>form</title>
+  <link rel="shortcut icon" href="images/computer_icon.ico" type="image/png">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+  	<!--  buttons,social icons(menu,home,facebook,...) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--/Goodfonts:
+        h1: cairo
+  -->
+</head>
+<body>
+  <section name="menu-bar">
+    <header>   
+      <div id="header">      
+        <div id="mainHeader" class="container">
+        <a href="index.html" ><img  class="logo" src="images/computer_icon.ico" alt=""></a>
+        <p style="left: 20px;">DCCE</p>
+
+        <header class="contanier"> 
+          <a href="#"  onclick="menuBtn()"><!--/openMenu-->
+            <div id="icon-menu" class="hidden" >
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>  
+          </a>
+      
+          <nav id="menu-phone">
+            <ul class="nav-list">
+              <li class="current"><a class="smoothscroll" href="#main.html" title="">Home</a></li>
+              <li class="current"><a class="smoothscroll" href="#about-us" title="">about-us</a></li>
+              <li class="current"><a class="smoothscroll" href="#Library" title="">Library</a></li>
+              <li class="current"><a class="smoothscroll" href="#portfolio" title="">corses</a></li>
+              <li class="current" style="margin-bottom: 1em;">
+                <div id="list">
+                  <div id="social-h">
+                    <ul class="contact">
+                      <li class="current"><button type="button"  onclick="lone()" class="smoothscroll">lecture 1</button></li>
+                      <li class="current"><button type="button" onclick="ltwo()" class="smoothscroll">lecture 2</button></li>
+                      <li class="current"><button type="button" onclick="lthree()" class="smoothscroll">lecture 3</button></li>
+                      <li class="current"><button type="button" onclick="lfour()" class="smoothscroll">lecture 4</button></li>
+                      <li class="current"><button type="button" onclick="lfive()" class="smoothscroll">lecture 5</button></li>
+                      <li class="current"><button type="button" onclick="lsix()" class="smoothscroll">lecture 6</button></li>
+                      <li class="current"><button type="button" onclick="lseven()" class="smoothscroll">lecture 7</button></li>
+                      <li class="current"><button type="button" onclick="leight()" class="smoothscroll">lecture 8</button></li>
+                      <li class="current"><button type="button" onclick="lnine()" class="smoothscroll">lecture 9</button></li>
+                      <li class="current"><button type="button" onclick="lten()" class="smoothscroll">lecture 10</button></li>
+                      <li class="current"><button type="button" onclick="leleven()" class="smoothscroll">lecture 11</button></li>
+                      <li class="current"><button type="button" onclick="ltwelve()" class="smoothscroll">another sorce</button></li>
+                      <!--
+                      <li><a href="#" class="fa fa-facebook"><span>Twitter</span></a></li>
+                      <li><a href="#" class="fa fa-twitter"><span>facebook</span></a></li>
+                      <li><a href="#" class="fa fa-instagram"><span>instagram</span></a></li>
+                      <li><a href="#" class="fa fa-youtube"><span>youtube</span></a></li>
+                    -->
+                    </ul>
+                  </div>
+                </div>
+          
+                <a class="smoothscroll" href="#contact" title="">contact us</a></li>						
+            </ul>
+      
+            <p> اهلا بيك ي هندسة في مكتبة العائلة</p>			
+      
+            <ul class="nav-list">
+            <li><button type="button" class="lecture" onclick="lone()">lecture 1</button></li>
+            <button type="button" onclick="ltwo()" class="lecture">lecture 2</button>
+            <li><button type="button" onclick="lthree()" class="lecture">lecture 3</button></li>
+            <li><button type="button" onclick="lfour()" class="lecture">lecture 4</button></li>
+            <li><button type="button" onclick="lfive()" class="lecture">lecture 5</button></li>
+            <li><button type="button" onclick="lsix()" class="lecture">lecture 6</button></li>
+            <li><button type="button" onclick="lseven()" class="lecture">lecture 7</button></li>
+            <li><button type="button" onclick="leight()" class="lecture">lecture 8</button></li>
+            <li><button type="button" onclick="lnine()" class="lecture">lecture 9</button></li>
+            <li><button type="button" onclick="lten()" class="lecture">lecture 10</button></li>
+            <li><button type="button" onclick="leleven()" class="lecture">lecture 11</button></li>
+            <li><button type="button" onclick="ltwelve()" class="lecture">another sorce</button></li>
+            <!--
+            <li><a href="#" class="fa fa-facebook"><span>Twitter</span></a></li>
+            <li><a href="#" class="fa fa-twitter"><span>facebook</span></a></li>
+            <li><a href="#" class="fa fa-instagram"><span>instagram</span></a></li>
+            <li><a href="#" class="fa fa-youtube"><span>youtube</span></a></li>
+          -->
+          </ul>
+
+                <li><a href="#" class="fa fa-facebook"><span></span></a></li>
+                <li><a href="#" class="fa fa-twitter"><span></span></a></li>
+                <li><a href="#" class="fa fa-instagram"><span></span></a></li>
+                <li><a href="#" class="fa fa-youtube"><span></span></a></li>
+              </ul>
+            </div>      
+          </nav>
+    
+
+<!--/
+        <div class="search">
+          <form action="#">
+              <input type="text" placeholder=" ابحث عن..... " name="search">
+              <button>
+                  <i class="fa fa-search"
+                      style="font-size: 18px;">
+                  </i>
+              </button>
+          </form>
+        </div>
+        <div id="theme">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+        <div class="buttons">
+          <button type="button" onclick="big()" style="font-size: 33px;">B</button>
+          <button type="button" onclick="medium()" style="font-size: 28px;">M</button>
+          <button type="button" onclick="small()" style="font-size: 25px;">S</button>  
+        </div>-->
+
+        </div>
+      </div>
+      <!--/
+      <div id="menu" class="contanier">
+        <ul class="contant-menu show">
+          <li><a href="#about-us" title="">من نحن</a></li>
+          <li><a href="#our-servise" title="">خدمتنا</i></a></li>
+          <li><a href="#" title="">الحياة المهنية</a></li>
+          <li>
+          <a href="#" class="contact-us">تواصل معنا</a>
+          </li>
+        </ul>
+
+      </div>-->    
+    </header>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>  
+
+  </section>  
+
+  <div id="page" class="contanier">
+    <div id="adv_1">
+      <img src="../../images/ad_H.jpg" alt="">
+    </div>
+
+    <div id="tags" class="class">
+      <b>الرئيسية >> القسم >></b> <spin> الموضوع</spin>
+    </div> 
+
+    <div id="intro">
+      <div id="hero-img">
+        <div>
+            <img src="images/physics.jpg" class="image-wrapper">
+        </div>
+        <!--<div class="caption">
+                توضيح للصورة
+        </div>-->
+      </div>
+
+      <div id="headingInfo">
+        <h1 class="headingInfo_title">
+          Physics
+        </h1> 
+          
+        <h2 class="headingInfo_subtitle">
+          lecture ONE : name
+        </h2>  
+        
+      </div>       
+    </div>
+<!--
+    <div id="bio">
+      <div class="column">
+        <img src="../../images/writing.png" class="img-s">
+        <b>كتبه</b>: الكاتب<a href=""></a><br>
+        <b>راجعه</b>: المراجع<a href=""></a>
+      </div>
+      <div class="column">
+        <img src="../../images/date.png" class="img-s">
+        <b>تاريخ النشر</b>: 10:12 pm 19/2 /2021 <br>
+        <b>تاريخ اخر تحديث</b>: 10:12 pm 19/2 /2021
+      </div>
+    </div>
+
+    <div id="Abstract" class="Abstract">    
+      <ul>المحتوى</ul>
+      <ul>
+        <ul><a class="text" href="#what">التعريف</a></ul><br>
+        <ul><a class="text" href="#kind">الانواع</a></ul><br>
+        <ul><a class="text" href="#why">لماذا </a></ul><br>
+        <ul><a class="text" href="#how">كيف ؟</a></ul>
+      </ul>         
+    </div>-->
+
+    <div id="article" class="contanier">     
+
+      <div id="list">
+        <div id="social-h">
+          <ul class="contact">
+            <li><button type="button" class="lecture" onclick="lone()">lecture 1</button></li>
+            <button type="button" onclick="ltwo()" class="lecture">lecture 2</button>
+            <li><button type="button" onclick="lthree()" class="lecture">lecture 3</button></li>
+            <li><button type="button" onclick="lfour()" class="lecture">lecture 4</button></li>
+            <li><button type="button" onclick="lfive()" class="lecture">lecture 5</button></li>
+            <li><button type="button" onclick="lsix()" class="lecture">lecture 6</button></li>
+            <li><button type="button" onclick="lseven()" class="lecture">lecture 7</button></li>
+            <li><button type="button" onclick="leight()" class="lecture">lecture 8</button></li>
+            <li><button type="button" onclick="lnine()" class="lecture">lecture 9</button></li>
+            <li><button type="button" onclick="lten()" class="lecture">lecture 10</button></li>
+            <li><button type="button" onclick="leleven()" class="lecture">lecture 11</button></li>
+            <li><button type="button" onclick="ltwelve()" class="lecture">another sorce</button></li>
+            <!--
+            <li><a href="#" class="fa fa-facebook"><span>Twitter</span></a></li>
+            <li><a href="#" class="fa fa-twitter"><span>facebook</span></a></li>
+            <li><a href="#" class="fa fa-instagram"><span>instagram</span></a></li>
+            <li><a href="#" class="fa fa-youtube"><span>youtube</span></a></li>
+          -->
+          </ul>
+        </div>
+      </div>
+
+      <div id="subject">
+        <iframe class="one"  class="video"  src="https://www.youtube.com/embed/WTkIOh18rx0">
+        </iframe>
+
+        <div id="lecture">
+          <div class="title">
+            <h2><b>lecture</b></h2>
+          </div>
+  
+        <div id="one">
+          <div class="title">
+            <h2><b>lecture one</b></h2>
+          </div>
+          <iframe class="video" src="https://www.youtube.com/embed/WSiQZO7lxuc?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 1 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="two">
+          <div class="title">
+            <h2><b>lecture two</b></h2>
+          </div>
+
+          <iframe class="video" src="https://www.youtube.com/embed/nclDhpw5UDE?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 2 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="title">
+            <h2><b>files</b></h2>
+          
+          </div>       
+
+          <div id ="doc">
+            <iframe   id="tw"src="https://drive.google.com/file/d/1FyUHBkZmWiG8ZJzxlDx5yjGGf6SxUsM5/preview" allow="autoplay"></iframe> 
+            <div id="one">
+    
+        
+        </div>
+      </div>
+    </div>
+
+
+        <div id="three">
+          <div class="title">
+            <h2><b>lecture three</b></h2>
+          </div>
+
+          <iframe class="video" src="https://www.youtube.com/embed/nRGohDFmWn8?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 3 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="four">
+          <div class="title">
+            <h2><b>lecture four</b></h2>
+          </div>
+
+          <iframe class="video" src="https://www.youtube.com/embed/3E4nhQdynhE?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 4 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="five">
+          <div class="title">
+            <h2><b>lecture five</b></h2>
+          </div>
+
+          <iframe class="video" src="https://www.youtube.com/embed/XS0uqCeRMLw?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 5 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="six">
+          <div class="title">
+            <h2><b>lecture six</b></h2>
+          </div>
+
+          <iframe class="video" src="https://www.youtube.com/embed/K6zUouYprHc?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 6 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="seven">
+          <div class="title">
+            <h2><b>lecture seven</b></h2>
+          </div>
+
+          <iframe class="video" src="https://www.youtube.com/embed/iq7nEJyxa-E?list=PL64s19wwshaA7-zWjTcH3AXQGaTxfo1PI" title="Lecture 7 | Physics 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="eight">
+          <div class="title">
+            <h2><b>lecture eight</b></h2>
+          </div>
+
+        </div>
+        <div id="nine">
+          <div class="title">
+            <h2><b>lecture nine</b></h2>
+          </div>
+
+        </div>
+        <div id="ten">
+          <div class="title">
+            <h2><b>lecture ten</b></h2>
+          </div>
+
+        </div>
+        <div id="eleven">
+          <div class="title">
+            <h2><b>lecture eleven</b></h2>
+          </div>
+
+        </div>
+        <div id="twelve">
+          <div class="title">
+            <h2><b>lecture twelve</b></h2>
+          </div>
+        </div>
+        </div>
+
+
+        
+<!--/
+          <p id="size"> 
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          
+        </p>
+      -->
+        
+        <div class="title">
+          <h2><b>files</b></h2>
+        </div>
+
+        <button type="button" class="lecture" onclick="ltwo()">lecture TWO</button>
+        
+       
+       <div id ="doc">
+        <iframe   id="tw"src="https://drive.google.com/file/d/FyUHBkZmWiG8ZJzxlDx5yjGGf6SxUsM5/preview" allow="autoplay"></iframe> 
+        <div id="one">
+          
+        </div>
+        </div>
+      </div> 
+<!--
+        <p id="size"> 
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          الموضوع هو الموضوع
+          
+        </p>
+      </div>-->
+      
+      <!--
+      <div id="advertise">
+        <div id="adv_f">
+          <img src="../../images/ad.jpg" alt="adv">
+        </div>
+        <iframe src="../../tempelets/related.html" frameborder="0"></iframe>
+      </div>
+-->
+    </div>
+
+  </div>
+  <!--
+  <iframe src="../../tempelets/footer.html" style="margin-bottom: -10px; height: 80%;"></iframe>
+-->
+  <script src="article-design.js"></script>
+  <script>
+
+
+  </script>
+</body>
+</html>
