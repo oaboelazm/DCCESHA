@@ -72,10 +72,7 @@ body {
 
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
+
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -104,13 +101,7 @@ body {
 
   }
  
-  @media (max-width: 600px) {
-    iframe{
-      width: 90%;
-      height: 350px;
-    }
-   
-  }
+  
   .files img
   {
     width: 50%;
@@ -140,6 +131,13 @@ body {
     background-color: #475250;
     color: white;
  }
+ /* .filesi
+ {
+  font-size: 250px;
+  color: rgb(92, 181, 223);
+  background-color: black;
+ } */
+
  .filesa a
  {
   text-decoration: none;  
@@ -147,7 +145,7 @@ body {
  .files button:hover 
  {
   color: white;
-  background-color: red;
+  background-color: #10cab7;
  }
 
 .sec3 div 
@@ -218,6 +216,63 @@ body {
   margin-right: auto;
 
 }
+.etisbut button
+{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 50px;
+  width: 20%;
+  background-color: #444;
+  color: white;}
+.etisbut button:hover 
+ {
+  color: white;
+  background-color: #10cab7;
+ }
+ .secetiscomp 
+ {
+  background-color: white;
+  max-width: 1000px;
+
+  
+}
+
+ .secetiscomp h1 
+ {
+  color: black;
+ }
+ .admsec2 h1 
+ {
+  color: white;
+ }
+.admsec3 h1 
+{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    iframe{
+      width: 90%;
+      height: 350px;
+    }
+    .secetiscomp 
+{
+  position: relative;
+  left: -2%;
+
+}
+   
+  }
 /* max 300 */
 @media (max-width:350px){
   .files h4 
@@ -225,10 +280,15 @@ body {
     position: relative;
     left: -15%;
   }
+  .secetiscomp 
+  {
+    position: relative;
+    left:-1.5%;
+  }
 }
 /* xs */
 @media (max-width:600px){
-  .filesa button{
+  .filesa button,.etisbut button {
     width: 70%;
     margin-bottom: 5px;
     font-size: 15px;
@@ -248,10 +308,14 @@ body {
     width: 100%;
     height: 200px;
   }
+  .etisbut img
+  {
+    width: 90%;
+  }
 }
 /* min-width */
 @media (min-width:600px){
-  .filesa button{
+  .filesa button,.etisbut button{
     width: 50%;
     margin-bottom: 5px;
     font-size: 15px;
@@ -276,6 +340,11 @@ body {
     width: 100%;
     height: 350px;
   }
+  .admsec2 img
+  {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* small */
@@ -283,7 +352,7 @@ body {
   .container{
       width: 750px;
   }
-  .filesa button{
+  .filesa button,.etisbut button{
     width: 30%;
     margin-bottom: 5px;
     font-size: 15px;
@@ -307,6 +376,12 @@ body {
 }
 /* Medium */
 @media (min-width: 992px) {
+  .secetiscomp 
+  {
+    position: relative;
+    left:15%;
+  
+  }
   .container{
       width: 970px;
   }
@@ -322,7 +397,18 @@ body {
     width: 90%;
     height: 650px;
   }
+  
 }
+@media (max-width: 1200px) {
+  .secetiscomp 
+  {
+    position: relative;
+    left: 8%;
+  
+  }
+}
+
+
 
 /* Start Header */
 .header{
