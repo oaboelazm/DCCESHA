@@ -707,6 +707,11 @@ color: #12ed3a;}
                 cursor: pointer;
                 color: #000;
               } 
+              .st img{
+                width: 900px;
+                height: 649px;
+                transform: translate(105px, 10px);
+              }
 
        
                 
