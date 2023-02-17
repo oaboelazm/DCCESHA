@@ -285,175 +285,7 @@ body {
 
 
  
-/* max 300 */
-@media (max-width:350px){
-  .files h4 
-  {
-    position: relative;
-    left: -15%;
-  }
-  .secetiscomp 
-  {
-    position: relative;
-    left:-1.5%;
-  }
 
-}
-/* xs */
-@media (max-width:600px){
-  iframe{
-    width: 90%;
-    height: 350px;
-  }
-  .secetiscomp 
-{
-position: relative;
-left: -2%;
-
-}
-
-  .filesa button,.etisbut button {
-    width: 70%;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  .files h4 
-  {
-    position: relative;
-    right: 8%;
-  }
-  .filesdiv1 
-  {
-    position: relative;
-    right: 10%;
-  }
-  .sec2 iframe
-  {
-    width: 100%;
-    height: 200px;
-  }
-  .etisbut img
-  {
-    width: 90%;
-  }
-}
-/* min-width */
-@media (min-width:600px){
-  .filesa button,.etisbut button{
-    width: 50%;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  .files h4 
-  {
-    position: relative;
-    left: -5%;
-  }
-  .filesdiv1 
-  {
-    position: relative;
-    right: 5%;
-  }
-  .sec2 img 
-  {
-    position: relative;
-    left: 5%;
-  }
-  .sec2 iframe
-  {
-    width: 100%;
-    height: 350px;
-  }
-  .admsec2 img
-  {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-/* small */
-@media (min-width: 768px) {
-  .container{
-      width: 750px;
-  }
-  .filesa button,.etisbut button{
-    width: 30%;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  .filesdiv1 
-  {
-    position: relative;
-    right: 5%;
-  }
-  .sec2 img 
-  {
-    position: relative;
-    left: 10%;
-  }
-  .sec2 iframe
-  {
-    width: 100%;
-    height: 350px;
-  }
-  
-  
-}
-/* Medium */
-@media (min-width: 992px) {
-  .secetiscomp 
-  {
-    position: relative;
-    left:15%;
-  
-  }
-  .container{
-      width: 970px;
-  }
-  .secinfo h5
-  {
-    position: relative;
-    left: 4%;
-  }
-  
-}
-/* Large */
-@media (min-width: 1200px) {
-  .container{
-      width: 1170px;
-  }
- 
-  .sec2 iframe
-  {
-    width: 90%;
-    height: 650px;
-  }
-  .secinfo h5
-  {
-    max-width: 1000px;
-    position: relative;
-    left: 10%;
-  }
-  
-  
-}
-@media (max-width: 1200px) {
-  .secetiscomp 
-  {
-    position: relative;
-    left: 8%;
-  
-  }
-
-
-}
-@media (min-width: 1350px) {
-  .secinfo h5
-  {
-    position: relative;
-    left: 15%;
-  }
-}
 
 
 
@@ -652,11 +484,7 @@ top: -19px;
   color: #10cab7;
 
 }
-@media (max-width: 768px){
-  .special-heading{
-      font-size: 50px;
-  }
-}
+
 
 
 /* End Notes */
@@ -755,6 +583,238 @@ footer a:hover
                 cursor: pointer;
                 color: #000;
               } 
+
+
+
+
+
+/* min 300 */
+@media (min-width:310px){
+  .card 
+  {
+    position: absolute;
+    left:-45%;
+  }
+}
+@media (min-width:450px){
+  /* .card 
+  {
+    position: relative;
+  right:10%;
+  } */
+}
+
+
+
+
+
+
+
+/* max 300 */
+@media (max-width:350px){
+  .files h4 
+  {
+    position: relative;
+    left: -15%;
+  }
+  .secetiscomp 
+  {
+    position: relative;
+    left:-1.5%;
+  }
+
+}
+/* xs */
+@media (max-width:600px){
+  iframe{
+    width: 90%;
+    height: 350px;
+  }
+  .secetiscomp 
+{
+position: relative;
+left: -2%;
+
+}
+
+  .filesa button,.etisbut button {
+    width: 70%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .files h4 
+  {
+    position: relative;
+    right: 8%;
+  }
+  .filesdiv1 
+  {
+    position: relative;
+    right: 10%;
+  }
+  .sec2 iframe
+  {
+    width: 100%;
+    height: 200px;
+  }
+  .etisbut img
+  {
+    width: 90%;
+  }
+}
+/* min-width */
+@media (min-width:600px){
+  .filesa button,.etisbut button{
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .files h4 
+  {
+    position: relative;
+    left: -5%;
+  }
+  .filesdiv1 
+  {
+    position: relative;
+    right: 5%;
+  }
+  .sec2 img 
+  {
+    position: relative;
+    left: 5%;
+  }
+  .sec2 iframe
+  {
+    width: 100%;
+    height: 350px;
+  }
+  .admsec2 img
+  {
+    width: 100%;
+    height: 100%;
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 10%;
+  } */
+}
+
+/* small */
+@media (min-width: 768px) {
+  .container{
+      width: 750px;
+  }
+  .filesa button,.etisbut button{
+    width: 30%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .filesdiv1 
+  {
+    position: relative;
+    right: 5%;
+  }
+  .sec2 img 
+  {
+    position: relative;
+    left: 10%;
+  }
+  .sec2 iframe
+  {
+    width: 100%;
+    height: 350px;
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 10%;
+  } */
+  
+  
+}
+@media (max-width: 768px){
+  .special-heading{
+      font-size: 50px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .secetiscomp 
+  {
+    position: relative;
+    left:15%;
+  
+  }
+  .container{
+      width: 970px;
+  }
+  .secinfo h5
+  {
+    position: relative;
+    left: 4%;
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 10%;
+  } */
+  
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container{
+      width: 1170px;
+  }
+ 
+  .sec2 iframe
+  {
+    width: 90%;
+    height: 650px;
+  }
+  .secinfo h5
+  {
+    max-width: 1000px;
+    position: relative;
+    left: 10%;
+  }
+  /* .card 
+  {
+    position: relative;
+    right: 1%;
+  } */
+  
+  
+}
+@media (max-width: 1200px) {
+  .secetiscomp 
+  {
+    position: relative;
+    left: 8%;
+  
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 0%;
+  } */
+
+
+}
+@media (min-width: 1350px) {
+  .secinfo h5
+  {
+    position: relative;
+    left: 15%;
+  }
+  .card 
+  {
+    position: relative;
+    left: 0%;
+  }
+}
+
 
        
                 
