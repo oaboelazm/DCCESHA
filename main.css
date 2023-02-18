@@ -593,15 +593,33 @@ footer a:hover
   .card 
   {
     position: absolute;
-    left:-45%;
+    left: -75px;
   }
-}
-@media (min-width:450px){
-  /* .card 
+  .i2
   {
     position: relative;
-  right:10%;
-  } */
+    bottom: 40px;
+  }
+}
+@media (min-width:400px){
+  .i2
+  {
+    position: relative;
+    bottom: 0px;
+  }
+}
+
+@media (min-width:450px){
+  .card 
+  {
+    position: absolute;
+    left: -10px;
+  }
+  .i2
+  {
+    position: relative;
+    bottom: 0px;
+  }
 }
 
 
@@ -755,12 +773,19 @@ left: -2%;
     position: relative;
     left: 4%;
   }
-  /* .card 
+  .card 
   {
-    position: relative;
-    left: 10%;
-  } */
+    position: absolute;
+    left: 40px;
+  }
   
+}
+@media (min-width: 1030px) {
+  .card 
+  {
+    position: absolute;
+    left: -70px;
+  }
 }
 /* Large */
 @media (min-width: 1200px) {
@@ -779,11 +804,11 @@ left: -2%;
     position: relative;
     left: 10%;
   }
-  /* .card 
+  .card 
   {
-    position: relative;
-    right: 1%;
-  } */
+    position: absolute;
+    left: 40px;
+  }
   
   
 }
@@ -810,10 +835,19 @@ left: -2%;
   }
   .card 
   {
-    position: relative;
-    left: 0%;
+    position: absolute;
+    left: 40px;
   }
 }
+@media (min-width: 1400px) {
+  .card 
+  {
+    position: absolute;
+    left: -20px;
+  }
+
+}
+
 
 
        
