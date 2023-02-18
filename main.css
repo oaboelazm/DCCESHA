@@ -235,7 +235,6 @@ body {
   background-color: white;
   max-width: 1000px;
 
-  
 }
 
  .secetiscomp h1 
@@ -250,163 +249,43 @@ body {
 {
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 600px) {
-    iframe{
-      width: 90%;
-      height: 350px;
-    }
-    .secetiscomp 
-{
-  position: relative;
-  left: -2%;
-
-}
-   
-  }
-/* max 300 */
-@media (max-width:350px){
-  .files h4 
+.secinfo h5
   {
-    position: relative;
-    left: -15%;
+    max-width: 1000px;
+    font-weight: 900;
   }
-  .secetiscomp 
+  .secinfo a 
   {
-    position: relative;
-    left:-1.5%;
-  }
-}
-/* xs */
-@media (max-width:600px){
-  .filesa button,.etisbut button {
-    width: 70%;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  .files h4 
-  {
-    position: relative;
-    right: 8%;
-  }
-  .filesdiv1 
-  {
-    position: relative;
-    right: 10%;
-  }
-  .sec2 iframe
-  {
-    width: 100%;
-    height: 200px;
-  }
-  .etisbut img
-  {
-    width: 90%;
-  }
-}
-/* min-width */
-@media (min-width:600px){
-  .filesa button,.etisbut button{
-    width: 50%;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  .files h4 
-  {
-    position: relative;
-    left: -5%;
-  }
-  .filesdiv1 
-  {
-    position: relative;
-    right: 5%;
-  }
-  .sec2 img 
-  {
-    position: relative;
-    left: 5%;
-  }
-  .sec2 iframe
-  {
-    width: 100%;
-    height: 350px;
-  }
-  .admsec2 img
-  {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-/* small */
-@media (min-width: 768px) {
-  .container{
-      width: 750px;
-  }
-  .filesa button,.etisbut button{
-    width: 30%;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  .filesdiv1 
-  {
-    position: relative;
-    right: 5%;
-  }
-  .sec2 img 
-  {
-    position: relative;
-    left: 10%;
-  }
-  .sec2 iframe
-  {
-    width: 100%;
-    height: 350px;
+    text-decoration: none;
   }
   
-}
-/* Medium */
-@media (min-width: 992px) {
-  .secetiscomp 
+  .i1
   {
-    position: relative;
-    left:15%;
-  
+    font-size: 50px;
+    color: red;
+    margin-right: 230px;
   }
-  .container{
-      width: 970px;
-  }
-}
-/* Large */
-@media (min-width: 1200px) {
-  .container{
-      width: 1170px;
-  }
+  .i2
+  {
+    font-size: 50px;
+    color: #10cab7; 
+    margin-left: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
  
-  .sec2 iframe
-  {
-    width: 90%;
-    height: 650px;
-  }
-  
-}
-@media (max-width: 1200px) {
-  .secetiscomp 
-  {
-    position: relative;
-    left: 8%;
-  
-  }
-}
+
 
 
 
@@ -477,7 +356,7 @@ top: -19px;
 /* End Header */
 /* Start Landing */
 .landing{
-  background-image: url(images/bg.png);
+  background-image: url(images/ce0bccd0-ec64-4f62-961e-80f61407fb84.jpg);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
@@ -605,14 +484,28 @@ top: -19px;
   color: #10cab7;
 
 }
-@media (max-width: 768px){
-  .special-heading{
-      font-size: 50px;
-  }
-}
+
 
 
 /* End Notes */
+/*Start About us */
+  
+  .aboutus div
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+   
+  }
+  .aboutus a 
+  {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 17px;
+    color: #10cab7;
+  
+  }
+/* End About us */
 /* Start Footer */
 footer
 {
@@ -632,7 +525,8 @@ footer a:hover
 {
   font-size: 25px;
   transform: scale(1.2);
-color: #12ed3a;}
+}
+
 
 
 /* End Footer */
@@ -643,110 +537,6 @@ color: #12ed3a;}
 
 
 
-/* 
-.smoothscroll{
-  float: right;
-  padding-right: 10px;
-  }
-  
-  
-  
-  .sponsor-text{
-  padding: 20px;
-  }
-  
-    #content {
-      float: left;
-      padding-right: 50px;
-      border-right: 1px solid #E6E7DC;
-    }
-    
-    #content .post-title
-    {
-      margin-bottom: 2em;
-    }
-    
-    #content .post-title h2
-    {
-      margin: 0;
-      padding: 0;
-    }
-    
-    #content .post
-    {
-      margin-bottom: 4em;
-      padding-bottom: 4em;
-      border-bottom: 1px solid #E6E7DC;
-    }
-   
-      #title{
-        padding: 10px 10px 10px 0;
-        margin: 1.7em 0;
-        width: 100%;
-
-      }
-    
-      
-      .title>h2 {
-        float: left;
-        padding-left: 10px;
-        font-size: 1em;
-        font-weight: 400;
-        color: rgba(0,0,0,0.8);
-      }	 */
-     
-        /*--End_subject-----*/
-        
-        /*--Start_Share-------*/
-		  
-/*   
-		 
-      .lecture{
-        background-color: #ccc;
-        border: 1px solid #2e383f;
-        max-width: 120px;
-        }
-        .video{
-          width:  -webkit-fill-available;
-          height: 60vh;
-          margin: 20px;
-          }
-          .title{
-            background-color: #10cab7;
-            text-align: center;
-            padding: 10px;
-            margin: 10px;
-            height: 40px;
-            width:  -webkit-fill-available;
-            
-            }
-    
-            .title > h2 {
-            color: white;
-            width: inherit;
-            text-align: center;
-            }
-            #two, #three,#four,#five,#six,#seven, #eight,#nine, #ten, #eleven, #twelve{
-              display: none;
-              }    
-              .doc{
-                width: 100%;
-                height: 100px;
-               
-                }
-                .doc_img{
-                width:  80px;
-                height: 80px;
-                float: left;
-                margin-left: 10px;
-                margin-right: 15px;
-                }
-        
-                .doc_text{
-                width: 80%;
-                left: 80px;
-                /* text-align: left;
-              } */
          
               
               .doc_btn{
@@ -796,163 +586,331 @@ color: #12ed3a;}
               .st img{
                 width: 900px;
                 height: 649px;
-                transform: translate(105px, 10px);
+                position: relative;
+                left: 115px;
               }
+
+
+
+
+
+/* min 300 */
+@media (min-width:310px){
+  .card 
+  {
+    position: absolute;
+    left: -75px;
+  }
+  .i2
+  {
+    position: relative;
+    bottom: 40px;
+  }
+  .st img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 40px;
+  }
+}
+/* max 300 */
+@media (max-width:350px){
+  .files h4 
+  {
+    position: relative;
+    left: -15%;
+  }
+  .secetiscomp 
+  {
+    position: relative;
+    left:-1.5%;
+  }
+  .st img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 25px;
+  }
+  /* 400 */
+
+}
+@media (min-width:400px){
+  .i2
+  {
+    position: relative;
+    bottom: 0px;
+  }
+    .st img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 30px;
+  } 
+}
+
+@media (min-width:450px){
+  .card 
+  {
+    position: absolute;
+    left: -10px;
+  }
+  .i2
+  {
+    position: relative;
+    bottom: 0px;
+  }
+  .st img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 45px;
+  } 
+}
+
+
+
+
+
+
+
+
+/* xs */
+@media (max-width:600px){
+  iframe{
+    width: 90%;
+    height: 350px;
+  }
+  .secetiscomp 
+{
+position: relative;
+left: -2%;
+
+}
+
+  .filesa button,.etisbut button {
+    width: 70%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .files h4 
+  {
+    position: relative;
+    right: 8%;
+  }
+  .filesdiv1 
+  {
+    position: relative;
+    right: 10%;
+  }
+  .sec2 iframe
+  {
+    width: 100%;
+    height: 200px;
+  }
+  .etisbut img
+  {
+    width: 90%;
+  }
+  /* .st img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 50px;
+  }  */
+}
+/* min-width */
+@media (min-width:600px){
+  .filesa button,.etisbut button{
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .files h4 
+  {
+    position: relative;
+    left: -5%;
+  }
+  .filesdiv1 
+  {
+    position: relative;
+    right: 5%;
+  }
+  .sec2 img 
+  {
+    position: relative;
+    left: 5%;
+  }
+  .sec2 iframe
+  {
+    width: 100%;
+    height: 350px;
+  }
+  .admsec2 img
+  {
+    width: 100%;
+    height: 100%;
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 10%;
+  } */
+  .st img{
+    width: 580px;
+    height: 600px;
+    position: relative;
+    left: -10px;
+  } 
+}
+
+/* small */
+@media (min-width: 768px) {
+  .container{
+      width: 750px;
+  }
+  .filesa button,.etisbut button{
+    width: 30%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .filesdiv1 
+  {
+    position: relative;
+    right: 5%;
+  }
+  .sec2 img 
+  {
+    position: relative;
+    left: 10%;
+  }
+  .sec2 iframe
+  {
+    width: 100%;
+    height: 350px;
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 10%;
+  } */
+  
+  .st img{
+    width: 580px;
+    height: 600px;
+    position: relative;
+    left: 50px;
+  } 
+}
+@media (max-width: 768px){
+  .special-heading{
+      font-size: 50px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .secetiscomp 
+  {
+    position: relative;
+    left:15%;
+  
+  }
+  .container{
+      width: 970px;
+  }
+  .secinfo h5
+  {
+    position: relative;
+    left: 4%;
+  }
+  .card 
+  {
+    position: absolute;
+    left: 40px;
+  }
+  .st img{
+    width: 580px;
+    height: 600px;
+    position: relative;
+    left: 150px;
+  } 
+  
+}
+@media (min-width: 1030px) {
+  .card 
+  {
+    position: absolute;
+    left: -70px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container{
+      width: 1170px;
+  }
+ 
+  .sec2 iframe
+  {
+    width: 90%;
+    height: 650px;
+  }
+  .secinfo h5
+  {
+    max-width: 1000px;
+    position: relative;
+    left: 10%;
+  }
+  .card 
+  {
+    position: absolute;
+    left: 40px;
+  }
+  .st img{
+    width: 750px;
+    height: 650px;
+    position: relative;
+    left: 200px;
+  } 
+  
+  
+}
+@media (max-width: 1200px) {
+  .secetiscomp 
+  {
+    position: relative;
+    left: 8%;
+  
+  }
+  /* .card 
+  {
+    position: relative;
+    left: 0%;
+  } */
+
+
+}
+@media (min-width: 1350px) {
+  .secinfo h5
+  {
+    position: relative;
+    left: 15%;
+  }
+  .card 
+  {
+    position: absolute;
+    left: 40px;
+  }
+}
+@media (min-width: 1400px) {
+  .card 
+  {
+    position: absolute;
+    left: -20px;
+  }
+
+}
+
+
 
        
                 
-                
-    /* Start Button */
-
-/* .btn-34,
-.btn-34 *,
-.btn-34 :after,
-.btn-34 :before,
-.btn-34:after,
-.btn-34:before {
-  border: 0 solid;
-  box-sizing: border-box;
- 
-
-}
-
-.btn-34 {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
-background-color: #000;
-  background-image: none;
-  color: #fff;
-  cursor: pointer;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
-  font-weight: 900;
-  line-height: 1;
-  margin: 0px 0px 0px 20px; 
- 
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-  padding:0;
-  text-transform: uppercase;
-  position: relative;
-  
-
-}
-.btn-34:disabled {
-  cursor: default;
-}
-.btn-34:-moz-focusring {
-  outline: auto;
-}
-.btn-34 svg {
-  display: block;
-  vertical-align: middle;
-}
-.btn-34 [hidden] {
-  display: none;
-}
-.btn-34 {
-  border-radius: 99rem;
-  border-width: 4px;
-  overflow: hidden;
-  padding: 1rem 3rem;
-  position: relative;
-  
-}
-.btn-34:hover {
-  transform: scale(1.1);
-
-}
-.btn-34 span {
-  font-weight: 900;
-  mix-blend-mode: difference;
-}
-.btn-34:before {
-  aspect-ratio: 1;
-  
-  background: #fff;
-  border-radius: 50%;
-  content: "";
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  transition: width 0.2s;
-  width: 0;
-}
-.btn-34:hover:before {
-  width: 100%;
-  
-} */
-/* End Button */
-/* Another Button */
-/* .btn-55,
-.btn-55 *,
-.btn-55 :after,
-.btn-55 :before,
-.btn-55:after,
-.btn-55:before {
-  border: 0 solid;
-  box-sizing: border-box;
-  position: relative;
-  left: 43%;
-
-}
-.btn-55 {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
-  background-color: #000;
-  background-image: none;
-  color: #fff;
-  cursor: pointer;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
-  line-height: 1.5;
-  margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-  padding: 0;
-}
-.btn-55:disabled {
-  cursor: default;
-}
-.btn-55:-moz-focusring {
-  outline: auto;
-}
-.btn-55 svg {
-  display: block;
-  vertical-align: middle;
-}
-.btn-55 [hidden] {
-  display: none;
-}
-.btn-55 {
-  background: linear-gradient(90deg, blue, red);
-  border-radius: 999px;
-  box-sizing: border-box;
-  color: #000;
-  display: block;
-  font-weight: 900;
-  overflow: hidden;
-  padding: 1.8rem 5rem;
-  position: relative;
-  text-transform: uppercase;
-}
-.btn-55 span {
-  background: #1e293b;
-  border-radius: 999px;
-  color: #fff;
-  display: grid;
-  inset: 5px;
-  place-items: center;
-  position: absolute;
-  transition: background 0.3s;
-}
-.btn-55:hover span {
-  background: none;
-} */
-
-/* End Button */
-  
-  
+    
