@@ -356,7 +356,7 @@ top: -19px;
 /* End Header */
 /* Start Landing */
 .landing{
-  background-image: url(images/ce0bccd0-ec64-4f62-961e-80f61407fb84.jpg);
+  background-image: url(images/bg.png);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
@@ -583,6 +583,11 @@ footer a:hover
                 cursor: pointer;
                 color: #000;
               } 
+              .st img{
+                width: 900px;
+                height: 649px;
+                transform: translate(105px, 10px);
+              }
 
 
 
