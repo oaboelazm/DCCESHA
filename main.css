@@ -906,11 +906,10 @@ left: -2%;
     position: absolute;
     left: -20px;
   }
-
 }
-
-
-
-       
-                
-    
+.notes .nts a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
