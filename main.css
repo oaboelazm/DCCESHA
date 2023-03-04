@@ -14,7 +14,7 @@ body {
 .headerr {
   position: fixed;
   top: 0;
-  z-index:3;
+  z-index:9999;
   width: 100%;
   background-color: #f1f1f1;
 }
@@ -35,6 +35,9 @@ body {
   nav
 {
   background-color: white;
+  z-index:9999;
+
+  
 }
  
 .div1
@@ -596,6 +599,13 @@ footer a:hover
 
 /* min 300 */
 @media (min-width:310px){
+  .fielsb button 
+  {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+ 
+ 
   .card 
   {
     position: absolute;
@@ -712,11 +722,12 @@ left: -2%;
 }
 /* min-width */
 @media (min-width:600px){
-  .filesa button,.etisbut button{
+  .filesa button,.etisbut button {
     width: 70%;
     margin-bottom: 5px;
     font-size: 15px;
   }
+
   .files h4 
   {
     position: relative;
@@ -800,6 +811,11 @@ left: -2%;
 }
 /* Medium */
 @media (min-width: 992px) {
+  .fielsb button 
+  {
+    width: 20%;
+    margin-bottom: 10px;
+  }
   .secetiscomp 
   {
     position: relative;
