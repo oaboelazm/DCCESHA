@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <script src="main.js"></script>
- <style scr="main.css"></style>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  
-  
-</head>
-<body class="stst">
-  <img src="/images/dcce_bg.png" style="position: absolute; width: 1510px; height: auto "  alt="">
-  
-  
-<div style="position: relative; " class="div555">
-  <SCRIPT LANGUAGE="JAVASCRIPT" >
+<SCRIPT LANGUAGE="JAVASCRIPT">
     
     var r_text = new Array ();
     r_text[0] = "دفعة لطيفة جدا والله اتعرفت فيها علي ناس فخور جدا إني أقول عليهم أخواتي 💖💖";
@@ -59,27 +42,39 @@
     r_text[38] = "الجمال لا يأتي من الخارج فحسب، بل يأتي من الداخل";
     r_text[39] = "  لا تنظر إلى المستقبل بخوف، بل قفز إليه بجرأة ";
     r_text[40] = "الكثير يعرفون الطريق إلى النجاح، لكن القليل منهم يسلكون هذا الطريق";
-
     
     var i = Math.floor(r_text.length * Math.random());
     
-    
-    document.write("<br /><br /><br /><br /><br /><br /><br /><center><FONT SIZE=72><FONT COLOR='#000'>" +
+    document.write("<br /><br /><br /><center><FONT SIZE=72><FONT COLOR='#10cab7'>DCCE Said:</FONT></center><br />"+"<br /><br /><br /><br /><br /><br /><br /><center><FONT SIZE=72><FONT COLOR='#0000'>" +
     r_text[i]  + "</FONT></center><br />");
     
     
-    var bgcolorlist=new Array("#ffffff")
     
-    document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)];
-    
+    function refreshPage(){
+        window.location.reload();
+        }
+
     </script><br> <br>
         <br>
         <br>
-        <button  style=" position: absolute; top: 80%;
-  left: 39%; border-radius: 50px;  font-size: 50px; padding: 10px;  background-color: #04AA6D; color: white; " class="ststbutton" type="submit" onClick="refreshPage()">New Message</button>
-      </div>
-          
- 
-  
-</body>
-</html>
+        <style type="text/css">
+    
+        body,td,th {
+         color: #000;
+         background-image: url("dcce_bg.png");
+         background-repeat: no-repeat;
+        background-size: cover;
+
+         font-family: Helvetica, sans-serif;
+        }
+
+        @media screen and (min-width: 660px) {
+            body {
+                background-image: url("/images/ss.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+         </style>
+
+<button  style=" position: absolute; top: 80%; left: 39%; border-radius: 20px;  font-size: 40px; padding: 10px;  background-color: #04AA6D; color: white; " class="ststbutton" type="submit" onClick="refreshPage()">New Message</button>
+    </html>
