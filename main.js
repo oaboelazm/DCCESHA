@@ -357,6 +357,7 @@ words[26] = "cryptogram"
 words[27] = "torchlight"
 words[28] = "bankruptcy"
 
+
 function BuildArray(size){
 this.length = size
 for (var i = 1; i <= size; i++){
@@ -372,3 +373,17 @@ var rnd = Math.ceil(Math.random() * NumberOfWords)
 frm.WordBox.value = words[rnd]
 }
 
+
+
+
+
+
+
+
+
+
+
+
+function refreshPage(){
+  window.location.reload();
+}
